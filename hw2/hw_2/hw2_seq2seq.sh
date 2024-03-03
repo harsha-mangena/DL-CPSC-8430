@@ -1,1 +1,1 @@
-python test_function.py $1 $2
+python test_function.py data/testing_data/feat captions_output.txt
