@@ -379,7 +379,7 @@ for epoch in range(EPOCHS):
     wer_score = wer.compute(predictions=pred_answers, references=true_answers)
     wer_list.append(wer_score)
 
-print('WER with scheduler: ', wer_list)
+print('WER Boss Model: ', wer_list)
 
 
 # In[ ]:
